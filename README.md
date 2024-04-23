@@ -1,6 +1,6 @@
 # Quick Start
 
-TODO: Description
+Ecosystem Plugin for Fantom support in Scroll
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ TODO: Description
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-pip install <PYPI_NAME>
+pip install ape_scroll
 ```
 
 ### via `setuptools`
@@ -21,14 +21,18 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
+git clone https://github.com/rafael-abuawad/ape-scroll.git
+cd ape-scroll
 python3 setup.py install
 ```
 
 ## Quick Usage
 
-TODO: Describe library overview in code
+Installing this plugin adds support for the Scroll ecosystem:
+
+```bash
+ape console --network scroll:mainnet
+```
 
 ## Development
 
