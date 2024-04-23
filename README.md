@@ -1,6 +1,6 @@
 # Quick Start
 
-Ecosystem Plugin for Fantom support in Scroll
+Ecosystem Plugin for Scroll support in Ape
 
 ## Dependencies
 
